@@ -1,0 +1,101 @@
+body {
+  background-color: #b0b78d;
+}
+
+#hero {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../assets/img/nobg.png");
+  filter: blur(0px);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.reserve-button {
+  margin-top: --8vw;
+  margin-bottom: 16vw;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.reserve-button {
+  border-radius: 1000px;
+  border-color: #fff;
+}
+
+.container.d-flex {
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 .2rem rgba(255,255,255,0);
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  color: rgba(0,0,0,0.48);
+  background-color: rgba(0,0,0,0.39);
+  border-color: rgba(255,255,255,0);
+}
+
+.btn-primary.focus, .btn-primary:focus {
+  box-shadow: 0 0 0 .2rem rgba(255,255,255,0);
+}
+
+.btn-primary:hover {
+  color: #000000;
+  background-color: rgba(255,255,255,0);
+  border-color: rgba(255,255,255,0);
+}
+
+.btn.focus, .btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 .2rem rgba(255,255,255,0);
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #ffffff;
+  border-color: rgba(255,255,255,0);
+}
+
+body {
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show > .btn-outline-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.btn-outline-primary {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+a:hover {
+  color: rgba(255,255,255,0);
+  text-decoration: underline;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active:focus, .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-outline-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 .2rem rgba(255,255,255,0.31);
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: rgba(255,255,255,0.49);
+  border-color: rgba(255,255,255,0.49);
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
